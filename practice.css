@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+article:first-of-type, article:nth-of-type(2) {
+  height: 25px;
+  flex-basis: 48%;
+  border: 1px solid black;
+}
+
+article:first-of-type {
+  border: 1px solid blue;
+}
+
+.inpt {
+  flex-basis: 50%;
+  height: 20px;
+}
+/*
+#container {
+  display: flex;
+  min-height: 1500px;
+}
+
+#audrey {
+  background-color: purple;
+  color: snow;
+  min-height: 100px;
+  width: 50px;
+  position: fixed;
+}
+*/
+
+#powerList {
+  height: 60px;
+}
+
+.disabled {
+  background-color: gray;
+}
+
+.enabled {
+  background-color: fuchsia;
+  color: goldenrod;
+}

@@ -1,0 +1,15 @@
+.blue {
+  color: green;
+}
+
+.bordered {
+  border: 1px solid dodgerblue;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.large {
+  font-size: 2em;
+}
